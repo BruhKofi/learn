@@ -1,6 +1,4 @@
 //Daniel Meyer(565281) GDP Praktikum Aufgaben 2.2
-//Sorry für "unsauberen" code ist 4 uhr Nachts ;)
-
 //Kurze Frage:Gibt es eine einfacher Methode als neue mehrdemensionale Arrays zu bauen die
 //man dann in Schleifen mit den "alten" Arrays der Zahlen befüllt, um die nebeneinander
 //stehen zu haben? Wenn ja wäre ich dankbar für ein Beispielcode hab nach langem googeln nichts gescheites gefunden.....
