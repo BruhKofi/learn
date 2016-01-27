@@ -1,0 +1,3 @@
+interface Callable{
+    void call();
+}
