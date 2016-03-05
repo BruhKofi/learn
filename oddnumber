@@ -1,0 +1,29 @@
+import java.util.*;
+class Solution {
+    public ArrayList<Integer> list = new ArrayList<Integer>();
+    public int lonelyOne;
+    public boolean done = true;
+    public int solution(int[] A) {
+        castArraylist(A);
+        while(done) test();
+        return lonelyOne;
+    }
+    public void test(){
+        for(int j=1;j<list.size();j++){
+            if(list.get(0) == list.get(j)){
+                list.remove(j);
+                list.remove(0);
+                return;   
+                }
+                 
+            }
+            lonelyOne = list.get(0);
+            done = false;
+            return;        
+    }
+    public void castArraylist(int[] A){
+        for(int i=0;i<A.length;i++){
+            list.add(A[i]);
+        }
+    }
+}
